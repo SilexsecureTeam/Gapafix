@@ -43,7 +43,7 @@ export default function Home() {
           <p
             className={`${inter.className} text-center pt-16 text-white text-[28px] py-5 tracking-[3] leading-[33px] w-[528px] h-[124px]`}
           >
-            Looking to Book a Flight? You're now on Mymore Travels for a
+            Looking to Book a Flight? You&apos;re now on Mymore Travels for a
             seamless booking experience, continue to our main site.
           </p>
           <div
@@ -151,7 +151,7 @@ export default function Home() {
             </h1>
             <p className="my-4 leading-[21px] text-gray-300 tracking-[2] text-[15px] text-gray-200 tracking-[-0.1]">
               Discover hotel deals that match your style and budget. Whether
-              you're traveling for business or leisure, we make it easy to find
+              you&apos;re traveling for business or leisure, we make it easy to find
               quality stays with flexible options and the best available prices.
             </p>
           </div>
@@ -261,7 +261,7 @@ export default function Home() {
                 >
                   <h1 className="text-[120px]  leading-[82px] pt-6">
                     {" "}
-                    <i>"</i>
+                    <i>{'\"'}</i>
                   </h1>
                   <p className="text-[16px] leading-[28px] text-gray-300">
                     Mymore Travels made my honeymoon stress-free and
@@ -293,7 +293,7 @@ export default function Home() {
                 >
                   <h1 className="text-[120px]  leading-[82px] pt-6">
                     {" "}
-                    <i>"</i>
+                    <i>{'\"'}</i>
                   </h1>
                   <p className="text-[16px] leading-[28px] text-gray-300">
                     Booking with Mymore Travels was the best decision. Their
