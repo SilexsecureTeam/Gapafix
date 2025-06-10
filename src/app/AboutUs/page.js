@@ -6,7 +6,7 @@ import Link from "next/link";
 import ImgDir from "../../../public/assets/image 4.png";
 import tour from "../../../public/assets/tour.jpg";
 import flight from "../../../public/assets/material-symbols_flight-rounded.png";
-import Vector from "../../../public/assets/Vector.png";
+// import Vector from "../../../public/assets/Vector.png";
 import VectorTwo from "../../../public/assets/Vector (2).png";
 import VectorOne from "../../../public/assets/Vector (1).png";
 import Passport from "../../../public/assets/mdi_passport-plus.png";
@@ -17,9 +17,9 @@ import FrameLady from "../../../public/assets/Frame 90.png";
 import FrameMan from "../../../public/assets/Frame 91.png";
 import Toyota from "../../../public/assets/pngwing.com (10) 1.png";
 import Ring from "../../../public/assets/pngwing.com (3) 1.png";
-import FrameMan from "../../../public/assets/Frame 91.png";
-import FrameMan from "../../../public/assets/Frame 91.png";
-import FrameMan from "../../../public/assets/Frame 91.png";
+import Ford from "../../../public/assets/Frame 91.png";
+import Lexus from "../../../public/assets/Frame 91.png";
+import Piggot from "../../../public/assets/Frame 91.png";
 
 
 const inter = Inter({ subsets: ["latin"], weight: "400" });
