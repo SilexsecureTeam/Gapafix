@@ -65,7 +65,7 @@ function Page() {
         >
           <div className="flex gap-6">
             <div className="bg-white flex items-center rounded-[50px] justify-center border-8 border-pink-100 w-[50px] h-[50px]">
-              <Image src={Vector} className="w-[25px] h-[25px]" />
+              <Image src={Vector} alt="vector" className="w-[25px] h-[25px]" />
             </div>
             <div className="w-[406px]">
               <h1 className="text-[24px]  leading-[24px]">Flight Bookings</h1>
@@ -78,7 +78,7 @@ function Page() {
 
           <div className="flex gap-6 pt-10">
             <div className="bg-white flex items-center rounded-[50px] justify-center border-8 border-pink-100 w-[50px] h-[50px]">
-              <Image src={Vector} className="w-[25px] h-[25px]" />
+              <Image src={Vector}  alt="vector" className="w-[25px] h-[25px]" />
             </div>
             <div className="w-[406px]">
               <h1 className="text-[24px]  leading-[24px]">Hotel Deals</h1>
@@ -91,7 +91,7 @@ function Page() {
 
           <div className="flex gap-6 pt-10">
             <div className="bg-white flex items-center rounded-[50px] justify-center border-8 border-pink-100 w-[50px] h-[50px]">
-              <Image src={Vector} className="w-[25px] h-[25px]" />
+              <Image src={Vector} alt="vector" className="w-[25px] h-[25px]" />
             </div>
             <div className="w-[406px]">
               <h1 className="text-[24px]  leading-[24px]">Tour Packages</h1>
@@ -104,7 +104,7 @@ function Page() {
 
           <div className="flex gap-6 pt-10">
             <div className="bg-white flex items-center rounded-[50px] justify-center border-8 border-pink-100 w-[50px] h-[50px]">
-              <Image src={Vector} className="w-[25px] h-[25px]" />
+              <Image src={Vector} alt="vector" className="w-[25px] h-[25px]" />
             </div>
             <div className="w-[406px]">
               <h1 className="text-[24px]  leading-[24px]">Visa Processing</h1>
@@ -122,7 +122,7 @@ function Page() {
         >
           <div className="flex gap-6">
             <div className="bg-white flex items-center rounded-[50px] justify-center border-8 border-pink-100 w-[50px] h-[50px]">
-              <Image src={Vector} className="w-[25px] h-[25px]" />
+              <Image src={Vector} alt="vector" className="w-[25px] h-[25px]" />
             </div>
             <div className="w-[406px]">
               <h1 className="text-[24px]  leading-[24px]">Flight Bookings</h1>
@@ -135,7 +135,7 @@ function Page() {
 
           <div className="flex gap-6 pt-10">
             <div className="bg-white flex items-center rounded-[50px] justify-center border-8 border-pink-100 w-[50px] h-[50px]">
-              <Image src={Vector} className="w-[25px] h-[25px]" />
+              <Image src={Vector} alt="vector" className="w-[25px] h-[25px]" />
             </div>
             <div className="w-[406px]">
               <h1 className="text-[24px]  leading-[24px]">Hotel Deals</h1>
@@ -148,7 +148,7 @@ function Page() {
 
           <div className="flex gap-6 pt-10">
             <div className="bg-white flex items-center rounded-[50px] justify-center border-8 border-pink-100 w-[50px] h-[50px]">
-              <Image src={Vector} className="w-[25px] h-[25px]" />
+              <Image src={Vector} alt="vector" className="w-[25px] h-[25px]" />
             </div>
             <div className="w-[406px]">
               <h1 className="text-[24px]  leading-[24px]">Tour Packages</h1>
@@ -161,7 +161,7 @@ function Page() {
 
           <div className="flex gap-6 pt-10">
             <div className="bg-white flex items-center rounded-[50px] justify-center border-8 border-pink-100 w-[50px] h-[50px]">
-              <Image src={Vector} className="w-[25px] h-[25px]" />
+              <Image src={Vector} alt="vector" className="w-[25px] h-[25px]" />
             </div>
             <div className="w-[406px]">
               <h1 className="text-[24px]  leading-[24px]">Visa Processing</h1>
@@ -261,7 +261,7 @@ function Page() {
             <div className="relative">
               <Image
                 src={Rectangle}
-                alt="Hotel"
+                alt="rectangle"
                 className="h-[602px] w-[525px]"
               />
               <div className="absolute right-[-510px] flex gap-6 -bottom-40 bg-neutral-700  p-6">

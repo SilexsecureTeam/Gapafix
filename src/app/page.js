@@ -17,6 +17,7 @@ import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import { BsLightningChargeFill } from "react-icons/bs";
 import { FcCustomerSupport } from "react-icons/fc";
 import { TiCreditCard } from "react-icons/ti";
+import { IoCloseOutline } from "react-icons/io5";
 import { PiGlobeLight } from "react-icons/pi";
 import { useState } from "react";
 
@@ -30,26 +31,26 @@ export default function Home() {
     <div className={`${inter.className} pt-20 `}>
       
       <div
-        className={`w-full  flex items-center justify-center top-60 z-1000 ${
+        className={`w-full   flex items-center justify-center top-60 z-1000 ${
           screenDisplay ? "hidden" : "block fixed"
         }`}
       >
         <div
-          className="flex flex-col justify-center items-center  w-[977px]  h-[426px] rounded-3xl"
+          className="flex relative flex-col justify-center items-center  w-[977px]  h-[426px] rounded-3xl"
           style={{ backgroundColor: "#780000" }}
         >
-          <div></div>
+          <div className="absolute top-5 right-10 text-white font-bold text-[54px]" onClick={() => setScreenDisplay(!screenDisplay)}><IoCloseOutline /></div>
           <p
-            className={`${inter.className} text-center text-white text-[28px] py-5 tracking-[3] leading-[33px] w-[528px] h-[124px]`}
+            className={`${inter.className} text-center pt-16 text-white text-[28px] py-5 tracking-[3] leading-[33px] w-[528px] h-[124px]`}
           >
             Looking to Book a Flight? You're now on Mymore Travels for a
             seamless booking experience, continue to our main site.
           </p>
           <div
-            className="bg-gradient-to-r w-[250px] h-[64px] mt-16 from-black to-white p-[1px] text-white rounded"
+            className="bg-gradient-to-r w-[250px] h-[64px] mt-25 from-black to-white p-[1px] text-white rounded"
             onClick={() => setScreenDisplay(!screenDisplay)}
           >
-            <div className="flex items-center justify-center w-full bg-black px-4 h-full rounded font-bold">
+            <div className="flex items-center justify-center  w-full bg-black px-4 h-full rounded font-bold">
               Book Flight Now
             </div>
           </div>
