@@ -276,7 +276,7 @@ function Page() {
                   <p className="text-[16px] leading-[28px] text-gray-300">
                     Mymore Travels made my honeymoon stress-free and
                     unforgettable! From flights to hotel bookings, everything
-                    was perfectly arranged. We’ll definitely be booking our next
+                    was perfectly arranged. We&apos;ll definitely be booking our next
                     trip with them.
                   </p>
                   <div>
@@ -303,7 +303,7 @@ function Page() {
                 >
                   <h1 className="text-[120px]  leading-[82px] pt-6">
                     {" "}
-                    <i>"</i>
+                    <i>{'\"'}</i>
                   </h1>
                   <p className="text-[16px] leading-[28px] text-gray-300">
                     Booking with Mymore Travels was the best decision. Their
