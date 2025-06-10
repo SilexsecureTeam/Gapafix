@@ -271,7 +271,7 @@ function Page() {
                 >
                   <h1 className="text-[120px]  leading-[82px] pt-6">
                     {" "}
-                    <i>"</i>
+                    <i>{'\"'}</i>
                   </h1>
                   <p className="text-[16px] leading-[28px] text-gray-300">
                     Mymore Travels made my honeymoon stress-free and
